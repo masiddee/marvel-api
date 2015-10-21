@@ -21,7 +21,7 @@ $(document).ready(function() {
 		});		
 	});
 
-	// call getCharacterInfo() when an option is selected
+	// call getCharacterInfo() when an option is selected 
 	$('.character-select select').change(function(){
 		var characterSelect = $('.character-select select').val();
 		getCharacterInfo(characterSelect);
